@@ -1,0 +1,31 @@
+{
+  "name": "url-shortening-service-roadmap.sh",
+  "version": "1.0.0",
+  "description": "a RESTfull API shorting URL",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemain server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestoyoofi/url-shortening-service-roadmap.sh.git"
+  },
+  "keywords": [
+    "nodejs",
+    "roadmap-project",
+    "shorting-url",
+    "mysql"
+  ],
+  "author": "Ernestoyoofi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ernestoyoofi/url-shortening-service-roadmap.sh/issues"
+  },
+  "homepage": "https://github.com/ernestoyoofi/url-shortening-service-roadmap.sh#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.5"
+  }
+}
